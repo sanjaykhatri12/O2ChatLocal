@@ -1,0 +1,6 @@
+framework module Pods_O2ChatLocal_Tests {
+  umbrella header "Pods-O2ChatLocal_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - O2ChatLocal (0.1.0)
+
+DEPENDENCIES:
+  - O2ChatLocal (from `../`)
+
+EXTERNAL SOURCES:
+  O2ChatLocal:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  O2ChatLocal: df1f3c1f81bff545d6bb190390da2bc9692f55a9
+
+PODFILE CHECKSUM: 90121591c98426afca0c86d54d9dc895a6c18b0e
+
+COCOAPODS: 1.15.2

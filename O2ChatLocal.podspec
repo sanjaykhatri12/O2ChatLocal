@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'O2ChatLocal'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of O2ChatLocal.'
+  s.summary          = 'Connect, Chat, and Cherish'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,58 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  "Discover a new way to stay connected with our feature-rich chat app. Whether you're catching up with old friends, making new connections, or collaborating with colleagues, our platform offers seamless messaging, file sharing, and group chat functionalities. Experience real-time conversations with lightning-fast performance, enhanced security, and a user-friendly interface designed to keep your interactions smooth and enjoyable. Connect, chat, and cherish every moment with us!"
                        DESC
 
-  s.homepage         = 'https://github.com/sanjay.khatri02@outlook.com/O2ChatLocal'
+  s.homepage         = 'https://github.com/sanjaykhatri12/O2ChatLocal'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sanjay.khatri02@outlook.com' => 'sanjay.kumar@arittek.com' }
-  s.source           = { :git => 'https://github.com/sanjay.khatri02@outlook.com/O2ChatLocal.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sanjaykhatri12/O2ChatLocal.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
+  s.swift_version = '5.0'
+  s.platform = :ios, '13.0'
 
-  s.source_files = 'O2ChatLocal/Classes/**/*'
+  s.pod_target_xcconfig = {
+  'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  
+  s.preserve_paths      = '**/O2ChatSDK.xcframework'
+  s.vendored_frameworks = '**/O2ChatSDK.xcframework'
+  
+  s.frameworks = ['UIKit', 'Foundation', 'AVFoundation', 'AudioToolbox', 'CoreMedia', 'ImageIO', 'QuickLook', 'SystemConfiguration', 'Security', 'Photos', 'CoreServices', 'QuickLook', 'MobileCoreServices']
+  
+  s.static_framework = true
+  
+  s.subspec 'AlamofireSupport' do |sp|
+    sp.dependency 'Alamofire', '>= 5.0', '< 6.0'
+  end
+  
+  s.subspec 'SwiftyJSONSupport' do |sp|
+    sp.dependency 'SwiftyJSON', '>= 5.0', '< 6.0'
+  end
+  
+  s.subspec 'FMDBSupport' do |sp|
+    sp.dependency 'FMDB', '>= 2.7', '< 3.0'
+  end
+  
+  s.subspec 'SwiftSignalRClientSupport' do |sp|
+    sp.dependency 'SwiftSignalRClient', '>= 0.8', '< 1.0'
+  end
+  
+  s.subspec 'FirebaseCoreSupport' do |sp|
+    sp.dependency 'Firebase/Core'
+  end
+  
+  s.subspec 'FirebaseMessagingSupport' do |sp|
+    sp.dependency 'Firebase/Messaging'
+  end
+  
+  s.subspec 'CosmosSupport' do |sp|
+    sp.dependency 'Cosmos', '>= 23.0', '< 24.0'
+  end
   
   # s.resource_bundles = {
   #   'O2ChatLocal' => ['O2ChatLocal/Assets/*.png']

@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C00D24D62DE1DF5BAFB02732A629B0 /* Pods-O2ChatLocal_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D8FDDC51DFE8B6BBBC84A0BA3AFD999 /* Pods-O2ChatLocal_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04DA7BE62CF9AF130006CA79 /* O2ChatSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DA7BE52CF9AF120006CA79 /* O2ChatSDK.xcframework */; };
+		198785C3F50F3B4DB09B08421826EFCB /* O2ChatLocal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1372AD6068DF2686FB1B7F5E70A5A97C /* O2ChatLocal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A167CBD27AEA32CA06D846BF040B665 /* Pods-O2ChatLocal_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 811D5A62DE8404B6525616C83A0BF90F /* Pods-O2ChatLocal_Example-dummy.m */; };
+		A30D4BFF7646D9881D905EFEAE29AE09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A6EE3A1E4C1F3E71EEEC0FA8D2581707 /* Pods-O2ChatLocal_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE67C81D6B8C3B5A7AF47C47B9629458 /* Pods-O2ChatLocal_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B80E75C42FC6505D0CBF7E8FEE985C35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D9170FEE743749FEBA919C32573B2385 /* Pods-O2ChatLocal_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8187DBE2C8E462B26C4B305EB8B6199F /* Pods-O2ChatLocal_Tests-dummy.m */; };
+		DFD515EFAB647EA061A56A47D2FB965A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FE3BD00A4770B2E96D622D218496BC80 /* O2ChatLocal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C3B49A4C2DD51CA08446CC7BAFE3A4 /* O2ChatLocal-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		824B88E3C981E697420B96BEECA87BB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B64BF0FDD8A629BCBEFADF34418D907A;
+			remoteInfo = "Pods-O2ChatLocal_Example";
+		};
+		B920ECAF7770F2251617308310C3204C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FDD60BEABBDB5141DE87590F121A006;
+			remoteInfo = O2ChatLocal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DA7BE52CF9AF120006CA79 /* O2ChatSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = O2ChatSDK.xcframework; sourceTree = "<group>"; };
+		05989F60BF0067F2BDA542F2C8B0B2FB /* Pods-O2ChatLocal_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-O2ChatLocal_Tests"; path = Pods_O2ChatLocal_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0675DFD5C94BE79E2F52FEE1EDAC71DE /* Pods-O2ChatLocal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-O2ChatLocal_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0D7C85666FF23059BAC394C7604AD52D /* Pods-O2ChatLocal_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-O2ChatLocal_Example-Info.plist"; sourceTree = "<group>"; };
+		1372AD6068DF2686FB1B7F5E70A5A97C /* O2ChatLocal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "O2ChatLocal-umbrella.h"; sourceTree = "<group>"; };
+		17558B9507F14A06A885587A434053E2 /* Pods-O2ChatLocal_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-O2ChatLocal_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		18ED53F182F3688B8B1ADDDA13628A59 /* Pods-O2ChatLocal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-O2ChatLocal_Example.release.xcconfig"; sourceTree = "<group>"; };
+		26DAA761F5E3F299810025875F29ED8E /* O2ChatLocal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = O2ChatLocal.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		291847F677C70BE5424B6B9D998C61C2 /* O2ChatLocal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "O2ChatLocal-prefix.pch"; sourceTree = "<group>"; };
+		37F6A6B512A942151203EB704863082E /* Pods-O2ChatLocal_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-O2ChatLocal_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D8FDDC51DFE8B6BBBC84A0BA3AFD999 /* Pods-O2ChatLocal_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-O2ChatLocal_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3FC94A415CBBAC4F7AAEB590755E81C9 /* Pods-O2ChatLocal_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-O2ChatLocal_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		416C03634C61F4BF3D4C1443C0435FEE /* Pods-O2ChatLocal_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-O2ChatLocal_Example-frameworks.sh"; sourceTree = "<group>"; };
+		47609F40371DE47B87A1D6C7390268F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		57F1D346D53C3099753901218D7AD7F2 /* Pods-O2ChatLocal_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-O2ChatLocal_Tests.modulemap"; sourceTree = "<group>"; };
+		5850607D9508C340FA8534BC68A4E3EE /* Pods-O2ChatLocal_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-O2ChatLocal_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		58D2F960808E96A6807F67777BCED08D /* Pods-O2ChatLocal_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-O2ChatLocal_Example"; path = Pods_O2ChatLocal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6199B6728F2AAAF1497F19A37B61135F /* O2ChatLocal */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = O2ChatLocal; path = O2ChatLocal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E85D9F4BC1D08629808F03E8D38CCE /* Pods-O2ChatLocal_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-O2ChatLocal_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6554C0F4281237BA71AF77879757C459 /* O2ChatLocal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = O2ChatLocal.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		811D5A62DE8404B6525616C83A0BF90F /* Pods-O2ChatLocal_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-O2ChatLocal_Example-dummy.m"; sourceTree = "<group>"; };
+		8187DBE2C8E462B26C4B305EB8B6199F /* Pods-O2ChatLocal_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-O2ChatLocal_Tests-dummy.m"; sourceTree = "<group>"; };
+		8A4BBD834BCB74ECAB50E64C40880CCF /* Pods-O2ChatLocal_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-O2ChatLocal_Example.modulemap"; sourceTree = "<group>"; };
+		97C3B49A4C2DD51CA08446CC7BAFE3A4 /* O2ChatLocal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "O2ChatLocal-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B2919F00FFFEB6FE3F49F8EAFE7744B7 /* O2ChatLocal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "O2ChatLocal-Info.plist"; sourceTree = "<group>"; };
+		B6BDEAAC15502E75318FFC8D1F7EBEAA /* Pods-O2ChatLocal_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-O2ChatLocal_Tests-Info.plist"; sourceTree = "<group>"; };
+		BDA1C758B35FB6828D23C9B1D1B9E57A /* O2ChatLocal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = O2ChatLocal.modulemap; sourceTree = "<group>"; };
+		CE67C81D6B8C3B5A7AF47C47B9629458 /* Pods-O2ChatLocal_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-O2ChatLocal_Example-umbrella.h"; sourceTree = "<group>"; };
+		D730905D8422D2A1531AFFB41E09B986 /* Pods-O2ChatLocal_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-O2ChatLocal_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E458576F05322D98B65723051759DAAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4AADDF8D6EB889D631BBF56CA87D321 /* O2ChatLocal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = O2ChatLocal.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75B520B54C7AC210A75B83C9C1FC7C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD515EFAB647EA061A56A47D2FB965A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12692D20F93C470F3979B5B162DDB8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30D4BFF7646D9881D905EFEAE29AE09 /* Foundation.framework in Frameworks */,
+				04DA7BE62CF9AF130006CA79 /* O2ChatSDK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F533E24CE524786510274F35B648EEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80E75C42FC6505D0CBF7E8FEE985C35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E4CE74EB165C3CD5865FFFD194142E5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				47609F40371DE47B87A1D6C7390268F1 /* LICENSE */,
+				26DAA761F5E3F299810025875F29ED8E /* O2ChatLocal.podspec */,
+				E458576F05322D98B65723051759DAAB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4483A28A040005C75BDC03668A2A7D52 /* Pods-O2ChatLocal_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				57F1D346D53C3099753901218D7AD7F2 /* Pods-O2ChatLocal_Tests.modulemap */,
+				17558B9507F14A06A885587A434053E2 /* Pods-O2ChatLocal_Tests-acknowledgements.markdown */,
+				5850607D9508C340FA8534BC68A4E3EE /* Pods-O2ChatLocal_Tests-acknowledgements.plist */,
+				8187DBE2C8E462B26C4B305EB8B6199F /* Pods-O2ChatLocal_Tests-dummy.m */,
+				B6BDEAAC15502E75318FFC8D1F7EBEAA /* Pods-O2ChatLocal_Tests-Info.plist */,
+				3D8FDDC51DFE8B6BBBC84A0BA3AFD999 /* Pods-O2ChatLocal_Tests-umbrella.h */,
+				D730905D8422D2A1531AFFB41E09B986 /* Pods-O2ChatLocal_Tests.debug.xcconfig */,
+				3FC94A415CBBAC4F7AAEB590755E81C9 /* Pods-O2ChatLocal_Tests.release.xcconfig */,
+			);
+			name = "Pods-O2ChatLocal_Tests";
+			path = "Target Support Files/Pods-O2ChatLocal_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8838DC3355D0ABFB225AE08B7E543774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6199B6728F2AAAF1497F19A37B61135F /* O2ChatLocal */,
+				58D2F960808E96A6807F67777BCED08D /* Pods-O2ChatLocal_Example */,
+				05989F60BF0067F2BDA542F2C8B0B2FB /* Pods-O2ChatLocal_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92A9A76595BD0FE5D28472CDEBB8C0C9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4C68077A5DD0431401428CABF0AE3C3 /* Pods-O2ChatLocal_Example */,
+				4483A28A040005C75BDC03668A2A7D52 /* Pods-O2ChatLocal_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C4C68077A5DD0431401428CABF0AE3C3 /* Pods-O2ChatLocal_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BBD834BCB74ECAB50E64C40880CCF /* Pods-O2ChatLocal_Example.modulemap */,
+				62E85D9F4BC1D08629808F03E8D38CCE /* Pods-O2ChatLocal_Example-acknowledgements.markdown */,
+				37F6A6B512A942151203EB704863082E /* Pods-O2ChatLocal_Example-acknowledgements.plist */,
+				811D5A62DE8404B6525616C83A0BF90F /* Pods-O2ChatLocal_Example-dummy.m */,
+				416C03634C61F4BF3D4C1443C0435FEE /* Pods-O2ChatLocal_Example-frameworks.sh */,
+				0D7C85666FF23059BAC394C7604AD52D /* Pods-O2ChatLocal_Example-Info.plist */,
+				CE67C81D6B8C3B5A7AF47C47B9629458 /* Pods-O2ChatLocal_Example-umbrella.h */,
+				0675DFD5C94BE79E2F52FEE1EDAC71DE /* Pods-O2ChatLocal_Example.debug.xcconfig */,
+				18ED53F182F3688B8B1ADDDA13628A59 /* Pods-O2ChatLocal_Example.release.xcconfig */,
+			);
+			name = "Pods-O2ChatLocal_Example";
+			path = "Target Support Files/Pods-O2ChatLocal_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D50A89BBE2F398DB254E0B2A169F34D8 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8838DC3355D0ABFB225AE08B7E543774 /* Products */,
+				92A9A76595BD0FE5D28472CDEBB8C0C9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D50A89BBE2F398DB254E0B2A169F34D8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E280D38F72437899B376175819DC9A96 /* O2ChatLocal */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D57996917FDD219AC61B416A98F25262 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDA1C758B35FB6828D23C9B1D1B9E57A /* O2ChatLocal.modulemap */,
+				97C3B49A4C2DD51CA08446CC7BAFE3A4 /* O2ChatLocal-dummy.m */,
+				B2919F00FFFEB6FE3F49F8EAFE7744B7 /* O2ChatLocal-Info.plist */,
+				291847F677C70BE5424B6B9D998C61C2 /* O2ChatLocal-prefix.pch */,
+				1372AD6068DF2686FB1B7F5E70A5A97C /* O2ChatLocal-umbrella.h */,
+				F4AADDF8D6EB889D631BBF56CA87D321 /* O2ChatLocal.debug.xcconfig */,
+				6554C0F4281237BA71AF77879757C459 /* O2ChatLocal.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/O2ChatLocal";
+			sourceTree = "<group>";
+		};
+		E280D38F72437899B376175819DC9A96 /* O2ChatLocal */ = {
+			isa = PBXGroup;
+			children = (
+				0E4CE74EB165C3CD5865FFFD194142E5 /* Pod */,
+				04DA7BE52CF9AF120006CA79 /* O2ChatSDK.xcframework */,
+				D57996917FDD219AC61B416A98F25262 /* Support Files */,
+			);
+			name = O2ChatLocal;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		685442969436E127DA84D5E527F009A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C00D24D62DE1DF5BAFB02732A629B0 /* Pods-O2ChatLocal_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917F818433763B28E98D9352FFE02EDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198785C3F50F3B4DB09B08421826EFCB /* O2ChatLocal-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE563515E111AC234A0D9DAF3F0000D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EE3A1E4C1F3E71EEEC0FA8D2581707 /* Pods-O2ChatLocal_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1FDD60BEABBDB5141DE87590F121A006 /* O2ChatLocal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C539EEF100ACAF5295C9C5FF334EB963 /* Build configuration list for PBXNativeTarget "O2ChatLocal" */;
+			buildPhases = (
+				917F818433763B28E98D9352FFE02EDC /* Headers */,
+				0A9A0497F202CF47DF5F13C1E790F969 /* Sources */,
+				A12692D20F93C470F3979B5B162DDB8C /* Frameworks */,
+				659339EF155999AA175BEB25275C2710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = O2ChatLocal;
+			productName = O2ChatLocal;
+			productReference = 6199B6728F2AAAF1497F19A37B61135F /* O2ChatLocal */;
+			productType = "com.apple.product-type.framework";
+		};
+		B64BF0FDD8A629BCBEFADF34418D907A /* Pods-O2ChatLocal_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A28B37747ADB0AA3480F836B8BA7336 /* Build configuration list for PBXNativeTarget "Pods-O2ChatLocal_Example" */;
+			buildPhases = (
+				BEE563515E111AC234A0D9DAF3F0000D /* Headers */,
+				844EF3CA16C0A18BBAD0FBA08F81B469 /* Sources */,
+				F533E24CE524786510274F35B648EEFF /* Frameworks */,
+				0FC83678680735BFF67FEB69DF78A3C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B79190CEBE572ED7F6FC877BA4678861 /* PBXTargetDependency */,
+			);
+			name = "Pods-O2ChatLocal_Example";
+			productName = Pods_O2ChatLocal_Example;
+			productReference = 58D2F960808E96A6807F67777BCED08D /* Pods-O2ChatLocal_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC197995D71F6228FDDA072231473163 /* Pods-O2ChatLocal_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A14C7382927108749D60F98B6941740 /* Build configuration list for PBXNativeTarget "Pods-O2ChatLocal_Tests" */;
+			buildPhases = (
+				685442969436E127DA84D5E527F009A1 /* Headers */,
+				76AF285F464DF40B5E197F0BD9C26D08 /* Sources */,
+				75B520B54C7AC210A75B83C9C1FC7C30 /* Frameworks */,
+				989C52B804B0297B7A0688D7B7BE41D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				982DF39BDE76DABDF60C992028641D03 /* PBXTargetDependency */,
+			);
+			name = "Pods-O2ChatLocal_Tests";
+			productName = Pods_O2ChatLocal_Tests;
+			productReference = 05989F60BF0067F2BDA542F2C8B0B2FB /* Pods-O2ChatLocal_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8838DC3355D0ABFB225AE08B7E543774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FDD60BEABBDB5141DE87590F121A006 /* O2ChatLocal */,
+				B64BF0FDD8A629BCBEFADF34418D907A /* Pods-O2ChatLocal_Example */,
+				DC197995D71F6228FDDA072231473163 /* Pods-O2ChatLocal_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FC83678680735BFF67FEB69DF78A3C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659339EF155999AA175BEB25275C2710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		989C52B804B0297B7A0688D7B7BE41D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A9A0497F202CF47DF5F13C1E790F969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3BD00A4770B2E96D622D218496BC80 /* O2ChatLocal-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AF285F464DF40B5E197F0BD9C26D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9170FEE743749FEBA919C32573B2385 /* Pods-O2ChatLocal_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844EF3CA16C0A18BBAD0FBA08F81B469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A167CBD27AEA32CA06D846BF040B665 /* Pods-O2ChatLocal_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		982DF39BDE76DABDF60C992028641D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-O2ChatLocal_Example";
+			target = B64BF0FDD8A629BCBEFADF34418D907A /* Pods-O2ChatLocal_Example */;
+			targetProxy = 824B88E3C981E697420B96BEECA87BB9 /* PBXContainerItemProxy */;
+		};
+		B79190CEBE572ED7F6FC877BA4678861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = O2ChatLocal;
+			target = 1FDD60BEABBDB5141DE87590F121A006 /* O2ChatLocal */;
+			targetProxy = B920ECAF7770F2251617308310C3204C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		068B50531FD7A325F80C56B1750FE57D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0675DFD5C94BE79E2F52FEE1EDAC71DE /* Pods-O2ChatLocal_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-O2ChatLocal_Example/Pods-O2ChatLocal_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-O2ChatLocal_Example/Pods-O2ChatLocal_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5072E432D4DA83FF44BE15BDF1D518C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC94A415CBBAC4F7AAEB590755E81C9 /* Pods-O2ChatLocal_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-O2ChatLocal_Tests/Pods-O2ChatLocal_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-O2ChatLocal_Tests/Pods-O2ChatLocal_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		659BFBD2C8661C819E62CCF54065AF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D730905D8422D2A1531AFFB41E09B986 /* Pods-O2ChatLocal_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-O2ChatLocal_Tests/Pods-O2ChatLocal_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-O2ChatLocal_Tests/Pods-O2ChatLocal_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731584CA7369546C9FB206E69444254A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6554C0F4281237BA71AF77879757C459 /* O2ChatLocal.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/O2ChatLocal/O2ChatLocal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/O2ChatLocal/O2ChatLocal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/O2ChatLocal/O2ChatLocal.modulemap";
+				PRODUCT_MODULE_NAME = O2ChatLocal;
+				PRODUCT_NAME = O2ChatLocal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		81DBB7ECFDE6131527B62E813E2ED54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4AADDF8D6EB889D631BBF56CA87D321 /* O2ChatLocal.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/O2ChatLocal/O2ChatLocal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/O2ChatLocal/O2ChatLocal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/O2ChatLocal/O2ChatLocal.modulemap";
+				PRODUCT_MODULE_NAME = O2ChatLocal;
+				PRODUCT_NAME = O2ChatLocal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		979D155E9805A31949C2CD89C1B788FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18ED53F182F3688B8B1ADDDA13628A59 /* Pods-O2ChatLocal_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-O2ChatLocal_Example/Pods-O2ChatLocal_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-O2ChatLocal_Example/Pods-O2ChatLocal_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A28B37747ADB0AA3480F836B8BA7336 /* Build configuration list for PBXNativeTarget "Pods-O2ChatLocal_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068B50531FD7A325F80C56B1750FE57D /* Debug */,
+				979D155E9805A31949C2CD89C1B788FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A14C7382927108749D60F98B6941740 /* Build configuration list for PBXNativeTarget "Pods-O2ChatLocal_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659BFBD2C8661C819E62CCF54065AF03 /* Debug */,
+				5072E432D4DA83FF44BE15BDF1D518C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C539EEF100ACAF5295C9C5FF334EB963 /* Build configuration list for PBXNativeTarget "O2ChatLocal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81DBB7ECFDE6131527B62E813E2ED54A /* Debug */,
+				731584CA7369546C9FB206E69444254A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

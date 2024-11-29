@@ -1,0 +1,6 @@
+framework module O2ChatLocal {
+  umbrella header "O2ChatLocal-umbrella.h"
+
+  export *
+  module * { export * }
+}

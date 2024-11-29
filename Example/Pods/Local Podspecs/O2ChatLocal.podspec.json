@@ -1,0 +1,22 @@
+{
+  "name": "O2ChatLocal",
+  "version": "0.1.0",
+  "summary": "A short description of O2ChatLocal.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sanjay.khatri02@outlook.com/O2ChatLocal",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sanjay.khatri02@outlook.com": "sanjay.kumar@arittek.com"
+  },
+  "source": {
+    "git": "https://github.com/sanjay.khatri02@outlook.com/O2ChatLocal.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "O2ChatLocal/Classes/**/*"
+}
