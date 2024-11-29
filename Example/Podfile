@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'O2ChatLocal_Example' do
+  pod 'O2ChatLocal', :path => '../'
+
+  target 'O2ChatLocal_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
